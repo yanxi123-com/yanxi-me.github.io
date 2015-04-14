@@ -10,7 +10,7 @@ relative_permalinks: true
 
 # Setup
 title:               Yanxi.me
-tagline:             "yanxi's personal website"
+tagline:             "personal website on thoughts, stories and ideas."
 description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:                 http://yanxi.me
 baseurl:             /
