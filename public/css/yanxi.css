@@ -1,0 +1,13 @@
+.image-wrapper {
+  text-align: center;
+}
+.image-wrapper img {
+  display: inline;
+  margin-bottom: 10px;
+}
+
+.image-wrapper .image-caption {
+  color: #828282;
+  margin-top: 0;
+  margin-bottom: 40px;
+}

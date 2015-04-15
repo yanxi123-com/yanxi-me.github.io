@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 开通 yanxi.me 网站
+title: 开通新的个人网站（yanxi.me）
 ---
 
 今天注册了新域名 [yanxi.me](http://yanxi.me) ，顺便用 [Github Pages](https://pages.github.com/) 和
-[Jekyll](http://jekyllrb.com) 搭了这个网站。
+[Jekyll](http://jekyllrb.com) 搭了这个网站。从此可以直接通过编辑器更新博客了，省略了在 web 页面点来点去的麻烦。
 
 简单记录下开通过程：
 
