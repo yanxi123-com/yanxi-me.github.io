@@ -11,16 +11,18 @@ relative_permalinks: true
 # Setup
 title:               Yanxi.me
 tagline:             "personal website on thoughts, stories and ideas."
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:         'A personal website on thoughts, stories and ideas. By <a href="http://yanxi.me/">yanxi</a>'
 url:                 http://yanxi.me
 baseurl:             /
 paginate:            5
+github:
+  repo:              https://github.com/yanxi-com/yanxi-com.github.io
 
 # About/contact
 author:
   name:              Yan xi
   url:               http://yanxi.me
-  email:             yanxi@yanxi.me
+  email:             yanxi.me@foxmail.com
 
 # Custom vars
 version:             1.0.0
