@@ -26,7 +26,7 @@ html
 
 angular stateCache service
 
-```
+```javascript
 servicesModule.factory('stateCache', function ($state) {
     function initApp() {
         // 应用内返回: 不会调用本方法
@@ -77,7 +77,7 @@ servicesModule.factory('stateCache', function ($state) {
 
 use the service in angular
 
-```
+```javascript
 angular.run(function() {
     stateCache.initApp()
 });

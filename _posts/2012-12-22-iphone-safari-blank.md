@@ -15,7 +15,7 @@ title: iPhone safari 刷新后出现空白页解决方案
 
 我正在开发的网站用的是nodejs &amp; Express，针对我遇到的情况，简单的解决方案如下：
 
-```
+```javascript
 app.get('*', function(req, res, next) {
     var ua = req.header('user-agent');
     if (ua &amp;&amp; ua.match(/safari/i)) {
