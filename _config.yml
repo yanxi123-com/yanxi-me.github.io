@@ -1,7 +1,3 @@
-# Dependencies
-markdown:            redcarpet
-highlighter:         pygments
-
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -13,7 +9,7 @@ title:               Yanxi.me
 tagline:             "personal website on thoughts, stories and ideas."
 description:         'A personal website on thoughts, stories and ideas. By <a href="http://yanxi.me/">yanxi</a>'
 url:                 http://yanxi.me
-baseurl:             /
+baseurl:             ''
 paginate:            5
 github:
   repo:              https://github.com/yanxi-com/yanxi-com.github.io

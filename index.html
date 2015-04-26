@@ -7,7 +7,7 @@ title: Home
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ post.url }}">
+      <a href="{{ site.baseurl }}/{{ post.url }}">
         {{ post.title }}
       </a>
     </h1>
@@ -21,15 +21,15 @@ title: Home
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item &lt; 上一页" href="{{ site.baseurl }}page{{paginator.next_page}}">&lt; 上一页</a>
+    <a class="pagination-item &lt; 上一页" href="{{ site.baseurl }}/page{{paginator.next_page}}">&lt; 上一页</a>
   {% else %}
     <span class="pagination-item &lt; 上一页">&lt; 上一页</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item 下一页 &gt;" href="{{ site.baseurl }}">下一页 &gt;</a>
+      <a class="pagination-item 下一页 &gt;" href="{{ site.baseurl }}/">下一页 &gt;</a>
     {% else %}
-      <a class="pagination-item 下一页 &gt;" href="{{ site.baseurl }}page{{paginator.previous_page}}">下一页 &gt;</a>
+      <a class="pagination-item 下一页 &gt;" href="{{ site.baseurl }}/page{{paginator.previous_page}}">下一页 &gt;</a>
     {% endif %}
   {% else %}
     <span class="pagination-item 下一页 &gt;">下一页 &gt;</span>
