@@ -11,10 +11,6 @@ title: 关于
 使用过的博客系统：
 
 * 自己开发的博客系统: 博客屋 (2004-2009)
-* php 开源系统: WordPress (2009-2012)
-* nodejs 开源系统: ghost (2012-2015)
+* php 开源系统: WordPress (2009-2014)
+* nodejs 开源系统: ghost (2014-2015)
 * 静态页面生成工具: jekyll (2015至今)
-
-[我的微博](http://weibo.com/yanxicom)
-
-[给我发邮件](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=lez0__38u-jw1eTku-b6_A)
