@@ -10,8 +10,8 @@ relative_permalinks: true
 
 # Setup
 title:               Yanxi.me
-tagline:             "personal website on thoughts, stories and ideas."
-description:         'A personal website on thoughts, stories and ideas. By <a href="http://yanxi.me/">yanxi</a>'
+tagline:             "所见･所闻･所思･所感"
+description:         '站点导航'
 url:                 http://yanxi.me
 baseurl:             ''
 paginate:            5
