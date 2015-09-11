@@ -16,7 +16,7 @@ url:                 http://yanxi.me
 baseurl:             ''
 paginate:            5
 github:
-  repo:              https://github.com/yanxi-com/yanxi-com.github.io
+  repo:              https://github.com/yanxi-me/yanxi-me.github.io
 
 # About/contact
 author:
