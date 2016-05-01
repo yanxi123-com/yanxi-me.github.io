@@ -6,7 +6,9 @@ highlighter:         pygments
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+#relative_permalinks: true
+
+gems: [jekyll-paginate]
 
 # Setup
 title:               Yanxi.me
@@ -15,6 +17,7 @@ description:         '站点导航'
 url:                 http://yanxi.me
 baseurl:             ''
 paginate:            5
+#paginate_path: "/blog/page:num/"
 github:
   repo:              https://github.com/yanxi-me/yanxi-me.github.io
 
@@ -26,5 +29,3 @@ author:
 
 # Custom vars
 version:             1.0.0
-
-exclude:             [not_publish]
