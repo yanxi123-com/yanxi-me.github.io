@@ -5,11 +5,11 @@ title: 漫谈图书城
 
 时间过得好快，从2006年12月开始做图书城到现在已经过去了9年了。先看看图书城从 2007 年到 2015 年的流量走势图：
 
-![图书城历史流量](http://yanxi.oss-cn-beijing.aliyuncs.com/yanxi.me%2F2015%2F10%2F1.png)
+![图书城历史流量](http://yanxi-img.h5nodejs.com/yanxi.me/2015/10/1.png)
 
 下面是最近1个月的流量走势图:
 
-![图书城历史流量](http://yanxi.oss-cn-beijing.aliyuncs.com/yanxi.me%2F2015%2F10%2F3.png)
+![图书城历史流量](http://yanxi-img.h5nodejs.com/yanxi.me/2015/10/3.png)
 
 从流量走势可以清晰的看出图书城在经历了2008-2010的短暂辉煌后，流量就再也没有起来过。总结了下有几个原因:
 
