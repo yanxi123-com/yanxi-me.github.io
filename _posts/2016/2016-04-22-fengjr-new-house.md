@@ -13,29 +13,23 @@ title: 新办公室第一天, 新的起点, 新的征程
 有了好的环境, 更需要好的人才. Html5 + node.js 方面继续招聘, 求贤若渴,
 [欢迎联系](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=lez0__38u-jw1eTku-b6_A), 共创辉煌!
 
-__外景: 共有楼上5层 + 地下1层__
+__外景，楼上5层 + 地下1层__
 ![凤凰金融新办公室](http://yanxi-img.h5nodejs.com/yanxi.me/2016/04/1.jpg@0o_1l_1440w_90q.src)
 
-__一层移动技术部: 我就在左下角的位置__
-![凤凰金融新办公室](http://yanxi-img.h5nodejs.com/yanxi.me/2016/04/2.jpg@0o_1l_1440w_90q.src)
-
-__我的工位图__
-![凤凰金融新办公室](http://yanxi-img.h5nodejs.com/yanxi.me/2016/04/3.jpg@0o_1l_1440w_90q.src)
-
-__貌似是三层办公位__
-![凤凰金融新办公室](http://yanxi-img.h5nodejs.com/yanxi.me/2016/04/4.jpg@0o_1l_1440w_90q.src)
+__送花篮的还不少__
+![凤凰金融新办公室](http://yanxi-img.h5nodejs.com/yanxi.me/2016/04/7.jpg@0o_1l_1440w_90q.src)
 
 __新的前台__
 ![凤凰金融新办公室](http://yanxi-img.h5nodejs.com/yanxi.me/2016/04/6.jpg@0o_1l_1440w_90q.src)
 
-__门口花篮__
-![凤凰金融新办公室](http://yanxi-img.h5nodejs.com/yanxi.me/2016/04/7.jpg@0o_1l_1440w_90q.src)
+__一层移动技术部: 我就在左下角的位置__
+![凤凰金融新办公室](http://yanxi-img.h5nodejs.com/yanxi.me/2016/04/2.jpg@0o_1l_1440w_90q.src)
 
-__二层后台技术部__
-![凤凰金融新办公室](http://yanxi-img.h5nodejs.com/yanxi.me/2016/04/9.jpg@0o_1l_1440w_90q.src)
-
-__淋浴间, 专为加班准备, 洗澡睡觉全搞定__
-![凤凰金融新办公室](http://yanxi-img.h5nodejs.com/yanxi.me/2016/04/10.jpg@0o_1l_1440w_90q.src)
+__我的工位__
+![凤凰金融新办公室](http://yanxi-img.h5nodejs.com/yanxi.me/2016/04/3.jpg@0o_1l_1440w_90q.src)
 
 __地下餐厅, 装修还挺有情调的__
 ![凤凰金融新办公室](http://yanxi-img.h5nodejs.com/yanxi.me/2016/04/12.jpg@0o_1l_1440w_90q.src)
+
+__淋浴间, 健身房配套__
+![凤凰金融新办公室](http://yanxi-img.h5nodejs.com/yanxi.me/2016/04/10.jpg@0o_1l_1440w_90q.src)
