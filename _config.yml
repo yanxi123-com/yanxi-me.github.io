@@ -4,7 +4,7 @@ permalink:           pretty
 # Setup
 title:               H5nodejs 中前端学习
 tagline:             Html5, Nodejs, Javascript, React, Redux, Webpack, ...
-url:                 http://getpoole.com
+url:                 http://h5nodejs.com
 paginate:            1
 baseurl:             ""
 
@@ -17,14 +17,14 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Yanxi
+  url:               http://yanxi.me/
+  email:             blogbbs@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/yanxi-me/h5nodejs
 
 # Gems
 gems:
