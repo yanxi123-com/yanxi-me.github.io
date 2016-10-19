@@ -24,10 +24,10 @@ title: 中前端常用文档
 |[React-Bootstrap 文档](http://react-bootstrap.h5nodejs.com/) | [GitHub](https://github.com/react-bootstrap/react-bootstrap) | [GitHub](https://github.com/react-bootstrap/react-bootstrap.github.io)
 |[React Native 文档](http://doc.h5nodejs.com/react-native/) | [GitHub](https://github.com/facebook/react-native) | [GitHub](https://github.com/facebook/react-native/tree/gh-pages)
 
-### Javascript 基础库
+### Javascript 实用库
 
 | 国内文档 @h5nodejs.com | 项目源码 | 文档源码 |
 | ------- | ------ | ------ | ------- |
-|Lodash 文档|[GitHub](https://github.com/lodash/lodash) | [GitHub](https://github.com/lodash/lodash.com)
-|Bluebird 文档|[GitHub](https://github.com/petkaantonov/bluebird) | [GitHub](https://github.com/petkaantonov/bluebird/tree/gh-pages)
+|[Lodash 文档](http://lodash.h5nodejs.com/) |[GitHub](https://github.com/lodash/lodash) | [GitHub](https://github.com/lodash/lodash.com)
+|[Bluebird 文档](http://bluebird.h5nodejs.com/docs/getting-started.html)|[GitHub](https://github.com/petkaantonov/bluebird) | [GitHub](https://github.com/petkaantonov/bluebird/tree/gh-pages)
 |[jQuery 官方文档](https://api.jquery.com/) | [GitHub](https://github.com/jquery/jquery) | [GitHub](https://github.com/jquery/api.jquery.com)
