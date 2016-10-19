@@ -5,7 +5,7 @@ title: 首页
 
 {% unless paginator.previous_page %}
   {% for page in site.pages %}
-    {% if page.name == 'home.md' %}
+    {% if page.name == 'README.md' %}
       <article class="page">
         {{ page.content }}
       </article>
