@@ -1,6 +1,6 @@
 # H5nodejs 文档
 
-文档地址：https://github.com/yanxi-me/h5nodejs/blob/master/about.md
+文档地址：https://github.com/yanxi-me/h5nodejs/blob/master/home.md
 
 -----
 
