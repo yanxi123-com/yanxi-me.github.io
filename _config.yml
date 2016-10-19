@@ -5,7 +5,7 @@ permalink:           pretty
 title:               H5nodejs 中前端学习
 tagline:             Html5, Nodejs, Javascript, React, Redux, Webpack, ...
 url:                 http://h5nodejs.com
-paginate:            1
+paginate:            5
 baseurl:             ""
 
 # Assets

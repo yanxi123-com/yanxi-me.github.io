@@ -9,9 +9,9 @@ title: 中前端常用文档
 
 | 国内文档 @h5nodejs.com | 项目源码 | 文档源码 |
 | ------- | ------ | ------ | ------- |
-|jQuery 文档
-|lodash 文档
-
+|Lodash 文档|[GitHub](https://github.com/lodash/lodash) | [GitHub](https://github.com/lodash/lodash.com)
+|Bluebird 文档|[GitHub](https://github.com/petkaantonov/bluebird) | [GitHub](https://github.com/petkaantonov/bluebird/tree/gh-pages)
+|[jQuery 官方文档](https://api.jquery.com/) | [GitHub](https://github.com/jquery/jquery) | [GitHub](https://github.com/jquery/api.jquery.com)
 
 ### React 相关
 
@@ -29,5 +29,5 @@ title: 中前端常用文档
 
 | 国内文档 @h5nodejs.com | 项目源码 | 文档源码 |
 | ------- | ------ | ------ | ------- |
-|[nodejs 文档](http://nodejs.h5nodejs.com/en/) | [GitHub](https://github.com/nodejs/node) | [GitHub](https://github.com/nodejs/nodejs.org)
-|express 文档
+|[nodejs 文档](http://doc.h5nodejs.com/node/out/doc/api/) | [GitHub](https://github.com/nodejs/node) | `NODE=/path/to/node make doc-only`
+|express 文档|[GitHub](https://github.com/expressjs/express) | [GitHub](https://github.com/expressjs/expressjs.com)

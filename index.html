@@ -3,16 +3,15 @@ layout: default
 title: 首页
 ---
 
-{% if paginator.previous_page %}
-{% else %}
-{% for page in site.pages %}
-  {% if page.name == 'home.md' %}
-    <article class="page">
-      {{ page.content }}
-    </article>
-  {% endif %}
-{% endfor %}
-{% endif %}
+{% unless paginator.previous_page %}
+  {% for page in site.pages %}
+    {% if page.name == 'home.md' %}
+      <article class="page">
+        {{ page.content }}
+      </article>
+    {% endif %}
+  {% endfor %}
+{% endunless %}
 
 <div class="posts">
   {% for post in paginator.posts %}
@@ -30,6 +29,7 @@ title: 首页
   {% endfor %}
 </div>
 
+{% if paginator.previous_page or paginator.next_page %}
 <div class="pagination">
   {% if paginator.previous_page %}
   <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">上一页</a>
@@ -43,3 +43,4 @@ title: 首页
   <span class="pagination-item older">下一页</span>
   {% endif %}
 </div>
+{% endif %}
