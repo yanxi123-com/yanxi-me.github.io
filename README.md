@@ -4,4 +4,4 @@
 
 -----
 
-站点使用 Jekyll，克隆来自 [Poole](https://github.com/poole/poole)
+站点使用 Jekyll 生成，克隆自 [Poole](https://github.com/poole/poole)
