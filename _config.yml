@@ -2,8 +2,8 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
+title:               H5nodejs 中前端学习
+tagline:             Html5, Nodejs, Javascript, React, Redux, Webpack, ...
 url:                 http://getpoole.com
 paginate:            1
 baseurl:             ""
