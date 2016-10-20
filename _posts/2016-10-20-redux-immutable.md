@@ -45,15 +45,15 @@ state.get('page').toObject()
 ```
 dispatch(action.set('page', 'persons', Immutable.fromJS([{name:'yanxi'}]))
 
-var persons = state.get('page', 'persons')
+state.get('page', 'persons')
 // 结果: List [ Map { "name": "yanxi" } ]
 
-persons = persons.push(Map({name: 'zhangsan'}))
-// 结果: List [ Map { "name": "yanxi" }, Map { "name": "zhangsan" }]
+state.get('page', 'persons', 0, 'name')
+// 结果: yanxi
 
-dispatch(action.set('page', 'persons', persons))
+dispatch(action.set('page', 'persons', s => s.push(Map({name: 'zhangsan'})))
 
-state.get('page', 'persons', 1, 'name')
-// 结果: zhangsan
+state.get('page', 'persons', 1)
+// 结果: Map { "name": "zhangsan" }
 ```
 
