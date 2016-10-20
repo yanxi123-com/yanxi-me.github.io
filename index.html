@@ -3,6 +3,8 @@ layout: default
 title: 首页
 ---
 
+<base target="_blank"/>
+
 {% unless paginator.previous_page %}
   {% for page in site.pages %}
     {% if page.name == 'README.md' %}
@@ -22,7 +24,7 @@ title: 首页
       </a>
     </h1>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: '%Y-%m-%d' }}</time>
 
     {{ post.content }}
   </article>
