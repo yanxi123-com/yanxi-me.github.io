@@ -4,9 +4,10 @@ title: Redux + immutable.js 学习实践
 author: 阎曦
 ---
 
-用 react + redux 有一段时间了, 之前都是自己写的 reducer, 因为每次修改 state 时需要返回新的引用, 所以需要特别注意, 用起来总觉得不够方便. 这两天学习了一下 Immutable.js , 准备把它引入到项目中. 数据存取方法设计如下:
+用 react + redux 有一段时间了。之前都是自己写的 reducer，因为每次修改 state 时需要返回新的引用，所以需要特别注意，用起来总觉得不够方便。这两天学习了一下 Immutable.js , 准备把它引入到项目中和 redux 配合使用。先来设计 action 数据存取方法，最主要的几个方法如下：
 
-    // 根据 keyPath 设置 value
+    // 根据 keyPath 设置 value，可以更新任意深位置的数据
+    // value 是简单值类型或者 Immutable 类型，也可以是函数 (oldValue) => newValue
     dispatch(action.set(...keyPath, value)) 
     
     // 删除 keyPath 对应的 value
@@ -57,3 +58,40 @@ state.get('page', 'persons', 1)
 // 结果: Map { "name": "zhangsan" }
 ```
 
+这么设计有两大好处，action 操作会非常方便：
+
+1. 可以直接根据keyPath更新任意深的数据
+1. 更新的时候如果最后一个参数指是函数，函数签名中第一个参数就是其更新前的值
+
+**注意事项**：设置的 value 应该是一个值类型，即 Immutable 类型或者其他简单类型，而不能是一个 JS 对象或者数组。
+
+### 主要实现部分如下:
+
+actions
+
+```
+function set(...keyPath) {
+  let value = keyPath.pop();
+  return {
+    type: 'MAP_SET',
+    keyPath,
+    value
+  }
+}
+```
+
+reducer
+
+```
+function (state = Map({}), action = {}) {
+  if (action.type === 'MAP_SET') {
+    if (typeof action.value === 'function') {
+      return state.updateIn(action.keyPath, action.value);
+    } else {
+      return state.setIn(action.keyPath, action.value);
+    }
+  }
+
+  return state;
+}
+```
