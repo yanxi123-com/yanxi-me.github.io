@@ -14,7 +14,7 @@ author: 阎曦
     dispatch(action.delete(...keyPath))
 
     // 根据 keyPath 获取 value
-    state.get(...keyPath)
+    state.getIn(keyPath)
 
 #### Object 类型数据存取示例:
 
@@ -22,11 +22,11 @@ author: 阎曦
 dispatch(action.set('page', 'form', 'name', 'yanxi'));
 dispatch(action.set('page', 'form', 'city', 'beijing'));
 
-state.get('page', 'form');
+state.getIn(['page', 'form']);
 // 结果: Map {name: 'yanxi', city: 'beijing'}
 
-state.get('page', 'form', 'name');
-state.get('page', 'form').get('name');
+state.getIn(['page', 'form', 'name']);
+state.getIn(['page', 'form']).get('name');
 // 结果: yanxi
 
 state.get('page').toJS()
@@ -46,15 +46,15 @@ state.get('page').toObject()
 ```
 dispatch(action.set('page', 'persons', Immutable.fromJS([{name:'yanxi'}]))
 
-state.get('page', 'persons')
+state.getIn(['page', 'persons'])
 // 结果: List [ Map { "name": "yanxi" } ]
 
-state.get('page', 'persons', 0, 'name')
+state.getIn(['page', 'persons', 0, 'name'])
 // 结果: yanxi
 
 dispatch(action.set('page', 'persons', s => s.push(Map({name: 'zhangsan'})))
 
-state.get('page', 'persons', 1)
+state.getIn(['page', 'persons', 1])
 // 结果: Map { "name": "zhangsan" }
 ```
 
