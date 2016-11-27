@@ -34,13 +34,13 @@ title: 首页
 {% if paginator.previous_page or paginator.next_page %}
 <div class="pagination">
   {% if paginator.previous_page %}
-  <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">上一页</a>
+  <a target="_self" class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">上一页</a>
   {% else %}
   <span class="pagination-item newer">上一页</span>
   {% endif %}
 
   {% if paginator.next_page %}
-  <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">下一页</a>
+  <a target="_self" class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">下一页</a>
   {% else %}
   <span class="pagination-item older">下一页</span>
   {% endif %}
