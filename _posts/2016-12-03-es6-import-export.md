@@ -161,5 +161,5 @@ math.sum(1, 2);
 * `export function sum() {}` 相当于 `exports.sum = function() {}`
 * `export default sum` 相当于 `exports.default = sum`
 * `import {sum} from 'math'` 相当于 `var sum = require('math').sum`
-* `import sum from 'sum'` 相当于 `var sum = require('math').default`
+* `import sum from 'sum'` 相当于 `var sum = require('sum').default`
 * `import * as math from 'math'` 相当于 `var math = require('math')`
