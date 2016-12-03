@@ -21,7 +21,7 @@ layout: page
 |[Immutable.js 文档](http://doc.h5nodejs.com/immutable-js/) | [GitHub](https://github.com/facebook/immutable-js) | [GitHub](https://github.com/facebook/immutable-js/tree/gh-pages)
 |[webpack 文档](http://doc.h5nodejs.com/webpack/) | [GitHub](https://github.com/webpack/webpack) | [GitHub](https://github.com/webpack/docs)
 |[React-Bootstrap 文档](http://react-bootstrap.h5nodejs.com/) | [GitHub](https://github.com/react-bootstrap/react-bootstrap) | [GitHub](https://github.com/react-bootstrap/react-bootstrap.github.io)
-|[React Native 文档](http://doc.h5nodejs.com/react-native/) | [GitHub](https://github.com/facebook/react-native) | [GitHub](https://github.com/facebook/react-native/tree/gh-pages)
+|[React Native 文档](http://reactnative.cn/) | [GitHub](https://github.com/facebook/react-native) | [GitHub](https://github.com/facebook/react-native/tree/gh-pages)
 
 ### Javascript 实用库
 
