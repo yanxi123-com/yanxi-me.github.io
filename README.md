@@ -13,6 +13,7 @@ layout: page
 
 ### React 相关
 
+|---|---|---|---
 |[React 官网](https://facebook.github.io/react/) | [React@GitHub](https://github.com/facebook/react) | [React router](https://github.com/ReactTraining/react-router) | [Redux](http://redux.js.org/)
 |[Immutable.js](https://facebook.github.io/immutable-js/) | [webpack](https://webpack.github.io/) | [React-Bootstrap](https://react-bootstrap.github.io/) | [React Native](https://facebook.github.io/react-native/)
 
