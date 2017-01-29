@@ -2,8 +2,8 @@
 permalink:           pretty
 
 # Setup
-title:               H5nodejs 中前端文档学习
-tagline:             Html5, Nodejs, Javascript, React, Redux, Webpack, ...
+title:               H5nodejs 中前端学习
+tagline:             Html5, Nodejs, Javascript, React, Redux, Webpack, iOS, ...
 url:                 http://h5nodejs.com
 paginate:            5
 baseurl:             ""
