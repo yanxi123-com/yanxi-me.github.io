@@ -9,13 +9,12 @@ layout: page
 ### nodejs 相关
 
 
-* [node 官网](https://nodejs.org/en/) [GitHub](https://github.com/nodejs/node)
-* [Express 官网](http://expressjs.com/) [Github](https://github.com/expressjs/express/)
+* [node 官网](https://nodejs.org/en/) - [GitHub](https://github.com/nodejs/node)
+* [Express 官网](http://expressjs.com/) - [Github](https://github.com/expressjs/express/)
 
 ### React 相关
 
-* [React 官网](https://facebook.github.io/react/) 
-* [React@GitHub](https://github.com/facebook/react) 
+* [React 官网](https://facebook.github.io/react/) - [GitHub](https://github.com/facebook/react) 
 * [React router](https://github.com/ReactTraining/react-router)
 * [Redux](http://redux.js.org/)
 * [Immutable.js](https://facebook.github.io/immutable-js/)
