@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 重新学习 Objective-C
+title: Objective-C 学习笔记
 author: 阎曦
 ---
 
