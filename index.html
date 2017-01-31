@@ -1,9 +1,57 @@
 ---
 layout: default
-title: Home
+title: 首页
 ---
 
-<div class="hero">
-  <img src="{{ site.baseurl }}{{ site.hero.image }}" />
-  <p>{{ site.hero.caption }}</p>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date: '%Y-%m-%d' }}</span>
+
+
+    {% if post.category %} &nbsp;
+    {% for tag in post.category %}
+    <a href="{{ site.baseurl }}{{ site.category_page }}#{{ tag | slugify }}" class="post-category">{{ tag }}</a>
+    {% endfor %}
+    {% endif %}
+
+    {% if post.tags %} &nbsp;
+    {% for tag in post.tags %}
+    <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+    {% endfor %}
+    {% endif %}
+
+    <article>
+      {{ post.excerpt | markdownify }}
+    <article>
+    <div class="post-more">
+      {% if site.disqus_short_name %}
+      <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"> <i class="fa fa-comments" aria-hidden="true"></i>Comment</a>&nbsp;
+      {% endif %}
+      <a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-plus-circle" aria-hidden="true"></i>Read more</a>
+    </div>
+  </div>
+  {% endfor %}
 </div>
+
+{% if paginator.previous_page or paginator.next_page %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+  <a target="_self" class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">上一页</a>
+  {% else %}
+  <span class="pagination-item newer">上一页</span>
+  {% endif %}
+
+  {% if paginator.next_page %}
+  <a target="_self" class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">下一页</a>
+  {% else %}
+  <span class="pagination-item older">下一页</span>
+  {% endif %}
+</div>
+{% endif %}

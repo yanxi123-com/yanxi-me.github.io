@@ -1,14 +1,14 @@
+permalink: /:year/:month/:day/:title/
+
 # Site Info
-title: Codinfox Lanyon
-tagline: 'A Jekyll theme based on Lanyon'
+title: W2NB
+tagline: 'W2NB = way to niubility'
 description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
-baseurl: "/lanyon"
-url: http://codinfox.github.io
+baseurl: ""
+url: http://w2nb.com
 logo: '/public/logo.png'
 
-# Site configurations
-gems:
-  - jekyll-paginate
+# Site configurationse
 markdown: kramdown
 kramdown:
   input: GFM
@@ -16,9 +16,8 @@ excerpt_separator: "<!-- more -->"
 sass:
   style: compressed
   sass_dir: _scss    
-paginate: 5
-paginate_path: '/blog/page:num'
-permalink: pretty
+paginate: 10
+paginate_path: '/page:num'
 
 version: 1.0.0
 
@@ -37,13 +36,11 @@ author:
 
 # Navigation (2nd level links supported)
 nav:
-  Home:           
+  首页:           
     - '/'
-  Blog:           
-    - '/blog/'
-    - { Categories: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
-  About:          
+    - { 分类: '/blog/categories/' }
+    - { 标签: '/blog/tags/' }
+  关于:          
     - '/about/'
   Github Project: 
     - 'http://codinfox.github.io/'
@@ -56,8 +53,11 @@ hero:
   image: /public/img/we_will_be_giants_by_yalestewart.jpg
   caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
 
+gems:
+  - jekyll-paginate
+
 # Puglins
-mathjax: true # whether support mathjax
-google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
-disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
+mathjax: false # whether support mathjax
+# google_analytics_token: '' # leave blank if you don't want google analytics
+#disqus_short_name: '' # leave blank if you don't want disqus
 
