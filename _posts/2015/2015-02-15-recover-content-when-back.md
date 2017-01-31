@@ -9,10 +9,10 @@ tags: [Web]
 
 页面 URL 发生变化分两类：
 
-<!-- more -->
-
 1. 不发起新 http 请求（应用内跳转）：只改变 URL 的 hash 部分或者用 html5 的 history.pushState，此时 URL 虽然变化，但是不会重新发起新的 http 请求。
 1. 请求了一个新的页面（应用外跳转）：在网页中点击链接，或者 location.href 改变都会发起新的 http 请求。
+
+<!-- more -->
 
 针对上面两类跳转，对应的返回也分两类，解决方法也略有不同。但基本思路是一样的，就是在发生上述两类跳转时，将当前页面的 state 信息保存到 sessionStorage。当页面返回时，直接从 sesseionStorage 读出 state 信息生成页面。
 
