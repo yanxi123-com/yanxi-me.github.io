@@ -1,6 +1,6 @@
 本网站主要用来记录自己的所思所想，如果也能给其他人带来一点点帮助，那就是意外的收获。
 
-网站模板来自 Codinfox-Lanyon，并在其基础上做了少量修改。下面是 Codinfox-Lanyon 具体介绍：
+网站模板来自 [Codinfox-Lanyon](https://github.com/codinfox/codinfox-lanyon)，并在其基础上做了少量修改。下面是 Codinfox-Lanyon 具体介绍：
 
 ---
 
