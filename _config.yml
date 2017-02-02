@@ -1,11 +1,11 @@
 permalink: /:year/:month/:day/:title/
 
 # Site Info
-title: W2NB
-tagline: 'W2NB = way to niubility'
+title: V2NB
+tagline: 'V2NB = way to niubility'
 description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
 baseurl: ""
-url: http://w2nb.com
+url: http://v2nb.com
 logo: '/public/logo.png'
 
 # Site configurationse
