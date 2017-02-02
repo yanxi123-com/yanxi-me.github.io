@@ -24,7 +24,7 @@ version: 1.0.0
 # About/contact
 author:
   name: 阎曦
-  description: A passionate <strong>developer and researcher</strong>, learning to be a giant.
+  description: A <strong>developer and lifelong learner</strong>, on the way to niubility.
   contact:
 #    linkedin:  https://www.linkedin.com/in/lizhihao
 #    github:    https://github.com/codinfox
@@ -42,7 +42,7 @@ nav:
   关于:
     - '/about/'
   Github Project:
-    - 'http://codinfox.github.io/'
+    - 'https://github.com/yanxi-me/yanxi-me.github.io'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'

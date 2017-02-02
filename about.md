@@ -1,30 +1,15 @@
 ---
 layout: page
-title: About
+title: 关于
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+真名阎曦，80后，从新世纪第一年走进大学机房打开第一个网页起，就和互联网结下了不解之缘。只要你做一个网站放到互联网上，全世界的人都可以通过一个网址找到你，那种感觉太神奇了。从那时起就默默的下定决心，一定要在互联网上留下我的足迹，于是开始了十几年的互联网征程。
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+### 我和博客的缘分
 
-There are currently two themes built on Poole:
+我和博客是有缘的，目睹博客在中国从兴起到鼎盛再到衰落的全过程。从2004年开始自己做博客屋网站，到2010年被相关部门关闭。从2004年开通的第一个博客，或通过各个博客托管网站、或独立运作，少说也开通过5次博客，但每次都没有坚持多久就荒废掉了。希望这次能坚持得更久！
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+* 自己开发的博客系统: 博客屋 (2004-2009)
+* php 开源系统: WordPress (2009-2014)
+* nodejs 开源系统: ghost (2014-2015)
+* 静态页面生成工具: jekyll (2015至今)
