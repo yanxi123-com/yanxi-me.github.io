@@ -15,7 +15,7 @@ kramdown:
 excerpt_separator: "<!-- more -->"
 sass:
   style: compressed
-  sass_dir: _scss    
+  sass_dir: _scss
 paginate: 10
 paginate_path: '/page:num'
 
@@ -23,26 +23,25 @@ version: 1.0.0
 
 # About/contact
 author:
-  name: Codinfox
+  name: 阎曦
   description: A passionate <strong>developer and researcher</strong>, learning to be a giant.
-  gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
   contact:
-    linkedin:  https://www.linkedin.com/in/lizhihao
-    github:    https://github.com/codinfox
-    # facebook:  <hide>
-    twitter:   https://twitter.com/Li_Zhihao
-    weibo:     http://weibo.com/41173780
-    email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
+#    linkedin:  https://www.linkedin.com/in/lizhihao
+#    github:    https://github.com/codinfox
+#    facebook:  <hide>
+#    twitter:   https://twitter.com/Li_Zhihao
+#    weibo:     http://weibo.com/41173780
+#    email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
 
 # Navigation (2nd level links supported)
 nav:
-  首页:           
+  首页:
     - '/'
     - { 分类: '/blog/categories/' }
     - { 标签: '/blog/tags/' }
-  关于:          
+  关于:
     - '/about/'
-  Github Project: 
+  Github Project:
     - 'http://codinfox.github.io/'
 
 # Where are tags and categories displayed
