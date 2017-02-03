@@ -1,7 +1,17 @@
 ---
 layout: default
-title: 首页
+title: Home
 ---
+
+{% unless paginator.previous_page %}
+{% for page in site.pages %}
+{% if page.name == 'home.md' %}
+<article class="page">
+  {{ page.content }}
+</article>
+{% endif %}
+{% endfor %}
+{% endunless %}
 
 <div class="posts">
   {% for post in paginator.posts %}

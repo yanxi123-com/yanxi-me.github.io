@@ -1,4 +1,4 @@
-permalink: /:year/:month/:day/:title/
+permalink: /blog/:year:month/:title/
 
 # Site Info
 title: V2NB
@@ -17,7 +17,7 @@ sass:
   style: compressed
   sass_dir: _scss
 paginate: 10
-paginate_path: '/page:num'
+paginate_path: '/blog/page:num'
 
 version: 1.0.0
 
