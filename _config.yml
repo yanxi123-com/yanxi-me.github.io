@@ -1,8 +1,8 @@
 permalink: /blog/:year:month/:title/
 
 # Site Info
-title: W2NB
-tagline: 'W2NB = way to niubility'
+title: Yanxi.me
+tagline: '热爱互联网和技术，喜欢探索的终身学习者'
 description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
 baseurl: ""
 url: http://w2nb.com
@@ -24,7 +24,7 @@ version: 1.0.0
 # About/contact
 author:
   name: 阎曦
-  description: A <strong>developer and lifelong learner</strong>, on the way to niubility.
+  description: 热爱互联网、热爱技术，喜欢探索的终身学习者
   contact:
 #    linkedin:  https://www.linkedin.com/in/lizhihao
 #    github:    https://github.com/codinfox
