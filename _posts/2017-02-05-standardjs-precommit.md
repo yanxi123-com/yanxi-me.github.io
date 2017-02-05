@@ -75,16 +75,19 @@ if [ $? -ne 0 ]; then exit 1; fi
 - 更新 gem 镜像：[http://gems.ruby-china.org/](http://gems.ruby-china.org/)
 - 安装 overcommit: `gem install overcommit`
 - 在 git 项目中初始化 overcommit
-```
-overcommit --install
-overcommit --sign
-```
+
+  ```
+  overcommit --install
+  overcommit --sign
+  ```
+
 - 编辑 `.overcommit.yml` 文件：
-```yml
-PreCommit:
-  Standard:
-    enabled: true
-    include:
-      - '**/*.js'
-      - '**/*.jsx'
-```
+
+  ```yml
+  PreCommit:
+    Standard:
+      enabled: true
+      include:
+        - '**/*.js'
+        - '**/*.jsx'
+  ```
