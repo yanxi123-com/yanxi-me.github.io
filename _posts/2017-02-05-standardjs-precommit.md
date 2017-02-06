@@ -22,7 +22,7 @@ tags: [Javascript]
 
 <!-- more -->
 
-在网上比较了 [airbnb](https://github.com/airbnb/javascript)，[Idiomatic.js](https://github.com/rwaldron/idiomatic.js/tree/master/translations/zh_CN)，[jQuery](https://contribute.jquery.org/style-guide/js/)，[Standard](https://github.com/feross/standard)，[等更多 JS 代码规范后]((http://noeticforce.com/best-javascript-style-guide-for-maintainable-code)) ，确定把 [standardJS](https://github.com/feross/standard) 作为团队的 JS 代码标准，主要因为：
+在网上比较了 [airbnb](https://github.com/airbnb/javascript)，[Idiomatic.js](https://github.com/rwaldron/idiomatic.js/tree/master/translations/zh_CN)，[jQuery](https://contribute.jquery.org/style-guide/js/)，[Standard](https://github.com/feross/standard)，[等更多 JS 代码规范后](http://noeticforce.com/best-javascript-style-guide-for-maintainable-code) ，确定把 [standardJS](https://github.com/feross/standard) 作为团队的 JS 代码标准，主要因为：
 
 1. 简单，无需配置文件
 1. 符合规则的代码相对比较简洁（比如语句不需要分号）
