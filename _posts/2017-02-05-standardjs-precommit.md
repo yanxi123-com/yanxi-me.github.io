@@ -26,7 +26,7 @@ tags: [Javascript]
 
 1. 简单，无需配置文件
 1. 符合规则的代码相对比较简洁（比如语句不需要分号）
-1. 支持自动修改代码样式（通过 --fix 参数）
+1. 支持自动修改代码样式（通过 `--fix` 参数）
 
 主要规则如下:
 
@@ -37,9 +37,9 @@ tags: [Javascript]
 - 不要以 `(`, `[`, or `` ` `` 开头，这是仅有的缺少分号可能带来问题的地方，standard js 会帮你自动检查
 - 关键字后面加空格 `if (condition) { ... }`
 - 函数名后面加空格 `function name (arg) { ... }`
-- 永远使用 `===` 代替 `==` – 但 `obj == null` 是允许的，用来检查 `null || undefined`.
+- 永远使用 `===` 代替 `==`，但 `obj == null` 是允许的，用来检查 `null || undefined`.
 - 永远处理错误 nodejs 类型的错误 `function(err) {}`
-- 浏览器全局变量永远加上 `window` – `document` 和 `navigator` 除外
+- 浏览器全局变量永远加上 `window`，`document` 和 `navigator` 除外
 - 查看[更多规则][5]
 
 [1]: http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding

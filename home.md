@@ -30,6 +30,7 @@ Web服务端：
 - [Nginx](https://nginx.org/en/)
 - [Node.js](https://nodejs.org/en/) - [GitHub](https://github.com/nodejs/node)
 - [ExpressJS](http://expressjs.com/) - [Github](https://github.com/expressjs/express/)
+- [OpenResty](https://openresty.org/cn/) - [GitHub](https://github.com/openresty/)
 
 App开发:
 
