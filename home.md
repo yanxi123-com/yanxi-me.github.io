@@ -30,7 +30,7 @@ Web服务端：
 - [Nginx](https://nginx.org/en/)
 - [Node.js](https://nodejs.org/en/) - [GitHub](https://github.com/nodejs/node)
 - [ExpressJS](http://expressjs.com/) - [Github](https://github.com/expressjs/express/)
-- [OpenResty](https://openresty.org/cn/) - [GitHub](https://github.com/openresty/)
+- [OpenResty](https://openresty.org/cn/) - [GitHub](https://github.com/openresty/) - [中文最佳实践](https://moonbingbing.gitbooks.io/openresty-best-practices/content/)
 
 App开发:
 
@@ -43,3 +43,8 @@ App开发:
 - Mysql
 - MongoDB - [mongoose](http://mongoosejs.com/)
 - [Redis](https://redis.io/)
+
+运维工具:
+
+- [Docker](https://www.docker.com/) - [GitHub](https://github.com/docker/docker) - [中文指南](https://opskumu.gitbooks.io/docker/content/chapter1.html)
+- [Ansible](https://www.ansible.com/) - [GitHub](https://github.com/ansible/ansible) - [中文指南](http://www.ansible.com.cn/)
