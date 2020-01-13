@@ -2,11 +2,17 @@ permalink: /:year/:month/:day/:title/
 
 # Site Info
 title: Yanxi.me
-tagline: '热爱互联网和技术，喜欢探索的终身学习者'
+tagline: "热爱互联网和技术，喜欢探索的终身学习者"
 description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
 baseurl: ""
 url: http://w2nb.com
-logo: '/public/logo.png'
+logo: "/public/logo.png"
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
 
 # Site configurationse
 markdown: kramdown
@@ -17,7 +23,7 @@ sass:
   style: compressed
   sass_dir: _scss
 paginate: 10
-paginate_path: '/page:num'
+paginate_path: "/page:num"
 
 version: 1.0.0
 
@@ -36,17 +42,17 @@ author:
 # Navigation (2nd level links supported)
 nav:
   首页:
-    - '/'
-    - { 分类: '/blog/categories/' }
-    - { 标签: '/blog/tags/' }
+    - "/"
+    - { 分类: "/blog/categories/" }
+    - { 标签: "/blog/tags/" }
   关于:
-    - '/about/'
+    - "/about/"
   Github Project:
-    - 'https://github.com/yanxi-me/yanxi-me.github.io'
+    - "https://github.com/yanxi-me/yanxi-me.github.io"
 
 # Where are tags and categories displayed
-tag_page: '/blog/tags/'
-category_page: '/blog/categories/'
+tag_page: "/blog/tags/"
+category_page: "/blog/categories/"
 
 hero:
   image: /public/img/we_will_be_giants_by_yalestewart.jpg
@@ -57,5 +63,5 @@ gems:
 
 # Puglins
 mathjax: false # whether support mathjax
-google_analytics_token: 'UA-100604-12' # leave blank if you don't want google analytics
+google_analytics_token: "UA-100604-12" # leave blank if you don't want google analytics
 #disqus_short_name: '' # leave blank if you don't want disqus

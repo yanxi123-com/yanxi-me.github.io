@@ -21,9 +21,13 @@ The theme supports:
 3. Integration of FontAwesome, MathJax, Disqus and Google Analytics
 4. and numerous improvements over original Lanyon
 
-
 ## License
 
 Open sourced under the [MIT license](LICENSE.md).
 
 <3
+
+## 升级到 Jekyll 4.0.0
+
+- 安装 ruby 2.7.0 （通过 rbenv）
+- bundle exec jekyll serve
