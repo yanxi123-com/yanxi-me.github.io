@@ -5,27 +5,30 @@
   <body>
     {% include sidebar.html %}
 
+    <div class="qr_code_pc_outer">
+      <div class="qr_code_pc_inner">
+        <div class="qr_code_pc">
+          <img class="qr_code_pc_img" src="/public/img/qrcode_cfms.jpg" />
+          微信扫一扫<br />关注 财富秘书
+        </div>
+      </div>
+    </div>
+
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a
-              target="_self"
-              href="{{ site.baseurl }}/"
-              title="Home"
-              title="{{ site.title }}"
-            >
-              <!-- <img class="masthead-logo" src="{{ site.baseurl }}{{ site.logo }}"/> -->
-              <span
-                style="font-size: 36px; font-weight: bold; font-family: arial; line-height: 100%"
-                >{{site.title}}</span
-              >
-            </a>
-            <small style="float: right; margin-top: 8px"
-              >{{ site.tagline }}</small
-            >
+            <a href="/" title="Yanxi" style="font-weight: 600;">Yanxi.me</a>
+            <img
+              class="masthead-logo"
+              src="{{ site.baseurl }}/public/img/cfms.png"
+            />
+
+            <small style="font-size: 16px; font-weight: 500;">
+              {{ site.tagline }}
+            </small>
           </h3>
         </div>
       </div>

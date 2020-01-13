@@ -1,0 +1,30 @@
+.qr_code_pc_outer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 20px;
+  color: #717375;
+  text-align: center;
+}
+
+.qr_code_pc_inner {
+  position: relative;
+  width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.qr_code_pc {
+  position: absolute;
+  right: -160px;
+  top: 140px;
+  width: 140px;
+  padding: 16px;
+  border: 1px solid #d9dadc;
+  background-color: #fff;
+  word-wrap: break-word;
+  word-break: break-all;
+
+  font-size: 14px;
+  text-align: center;
+}

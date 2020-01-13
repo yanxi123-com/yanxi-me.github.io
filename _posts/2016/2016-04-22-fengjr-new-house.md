@@ -16,24 +16,24 @@ tags: [凤凰金融]
 [欢迎联系](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=lez0__38u-jw1eTku-b6_A), 共创辉煌!
 
 **外景，楼上 5 层 + 地下 1 层**
-![凤凰金融新办公室](https://yanxime.oss-cn-beijing.aliyuncs.com/yanxi.me/2016/04/1.jpg@0o_1l_1440w_90q.src)
+![凤凰金融新办公室](https://yanxime.oss-cn-beijing.aliyuncs.com/yanxi.me/2016/04/1.jpg)
 
 <!-- more -->
 
 **送花篮的还不少**
-![凤凰金融新办公室](https://yanxime.oss-cn-beijing.aliyuncs.com/yanxi.me/2016/04/7.jpg@0o_1l_1440w_90q.src)
+![凤凰金融新办公室](https://yanxime.oss-cn-beijing.aliyuncs.com/yanxi.me/2016/04/7.jpg)
 
 **新的前台**
-![凤凰金融新办公室](https://yanxime.oss-cn-beijing.aliyuncs.com/yanxi.me/2016/04/6.jpg@0o_1l_1440w_90q.src)
+![凤凰金融新办公室](https://yanxime.oss-cn-beijing.aliyuncs.com/yanxi.me/2016/04/6.jpg)
 
 **一层移动技术部: 我就在左下角的位置**
-![凤凰金融新办公室](https://yanxime.oss-cn-beijing.aliyuncs.com/yanxi.me/2016/04/2.jpg@0o_1l_1440w_90q.src)
+![凤凰金融新办公室](https://yanxime.oss-cn-beijing.aliyuncs.com/yanxi.me/2016/04/2.jpg)
 
 **我的工位**
-![凤凰金融新办公室](https://yanxime.oss-cn-beijing.aliyuncs.com/yanxi.me/2016/04/3.jpg@0o_1l_1440w_90q.src)
+![凤凰金融新办公室](https://yanxime.oss-cn-beijing.aliyuncs.com/yanxi.me/2016/04/3.jpg)
 
 **地下餐厅, 装修还挺有情调的**
-![凤凰金融新办公室](https://yanxime.oss-cn-beijing.aliyuncs.com/yanxi.me/2016/04/12.jpg@0o_1l_1440w_90q.src)
+![凤凰金融新办公室](https://yanxime.oss-cn-beijing.aliyuncs.com/yanxi.me/2016/04/12.jpg)
 
 **淋浴间, 健身房配套**
-![凤凰金融新办公室](https://yanxime.oss-cn-beijing.aliyuncs.com/yanxi.me/2016/04/10.jpg@0o_1l_1440w_90q.src)
+![凤凰金融新办公室](https://yanxime.oss-cn-beijing.aliyuncs.com/yanxi.me/2016/04/10.jpg)

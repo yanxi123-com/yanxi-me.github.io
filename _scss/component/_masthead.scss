@@ -6,11 +6,11 @@
 
 .masthead {
   z-index: 1;
-  padding-top:    1rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid $lightgrey;
-  background-color: rgba(255,255,255,1);
+  background-color: rgba(255, 255, 255, 1);
   @media (min-width: 30rem) {
     position: fixed;
     width: 100%;
@@ -37,7 +37,7 @@
     }
   }
   .masthead-logo {
-    height: 30px;
+    height: 46px;
     width: auto;
     vertical-align: text-bottom;
     display: inline;
